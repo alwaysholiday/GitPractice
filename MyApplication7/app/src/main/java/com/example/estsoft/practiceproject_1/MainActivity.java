@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         test1View = (TextView)findViewById(R.id.test1);
         test1View.setText(new StringTestFirst().firstTest());
+        String tempMessage = "tempMessage";
+        tempMessage += "testMessage";
     }
 
     @Override
