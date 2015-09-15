@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         for(int i=1 ; i<=100 ; i++){
             tempararyInt[i-1] = i;
         }
+        String tempLabel = "This file is from second practice Test Folder";
     }
 
     @Override
