@@ -1,30 +1,16 @@
-package com.example.estsoft.practiceproject_1;
+package com.example.estsoft.practiceproject_2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView test1View;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
-        TestClass testClass = new TestClass();
-        testClass.testFunction();
-        int[] tempararyInt = new int[100];
-        for(int i=1 ; i<=100 ; i++){
-            tempararyInt[i-1] = i;
-        }
-=======
-        test1View = (TextView)findViewById(R.id.test1);
-        test1View.setText(new StringTestFirst().firstTest());
-        String tempMessage = "tempMessage";
-        tempMessage += "testMessage";
->>>>>>> firstFractice
     }
 
     @Override
