@@ -12,19 +12,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
         TestClass testClass = new TestClass();
         testClass.testFunction();
         int[] tempararyInt = new int[100];
         for(int i=1 ; i<=100 ; i++){
             tempararyInt[i-1] = i;
         }
-=======
-        test1View = (TextView)findViewById(R.id.test1);
-        test1View.setText(new StringTestFirst().firstTest());
-        String tempMessage = "tempMessage";
-        tempMessage += "testMessage";
->>>>>>> firstFractice
     }
 
     @Override
