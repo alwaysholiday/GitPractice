@@ -13,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TestClass testClass = new TestClass();
         testClass.testFunction();
+        int[] tempararyInt = new int[100];
+        for(int i=1 ; i<=100 ; i++){
+            tempararyInt[i-1] = i;
+        }
     }
 
     @Override
