@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         for(int i=1 ; i<=100 ; i++){
             tempararyInt[i-1] = i;
         }
+        String tempLabel = "this file is from GitPractice Folder";
     }
 
     @Override
